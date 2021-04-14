@@ -42,7 +42,7 @@ O site ainda está em desenvolvimento e as próximas atualizações serão volta
       <a href="https://github.com/flupynho">
         <img src="https://avatars.githubusercontent.com/u/73322544" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Felippe Santos</b>
         </sub>
       </a>
     </td>
