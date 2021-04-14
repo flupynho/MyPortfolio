@@ -6,9 +6,6 @@
   Portfólio criado com o intuito de mostrar meus projetos ao decorrer da minha carreira.
 </h4>
 
-![Resultado final do projeto](assets/image/preview.png)
-
-<h4 align="center"><a href="https://iuricode.vercel.app/">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
 O site é composto por 5 seções diferentes:
@@ -42,8 +39,8 @@ O site ainda está em desenvolvimento e as próximas atualizações serão volta
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/iuricode">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+      <a href="https://github.com/flupynho">
+        <img src="https://avatars.githubusercontent.com/u/73322544" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
           <b>Iuri Silva</b>
         </sub>
@@ -56,20 +53,12 @@ O site ainda está em desenvolvimento e as próximas atualizações serão volta
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/BrianIto">
-        <img src="https://avatars3.githubusercontent.com/u/6891093" width="100px;" alt="Foto do Brian Ito no GitHub"/><br>
+      <a href="https://github.com/iuricode">
+        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
-          <b>Brian Ito</b>
+          <b>Iuri Silva</b>
         </sub>
-      </a><br>
-    </td>
-    <td align="center">
-      <a href="https://github.com/afaferz">
-        <img src="https://avatars3.githubusercontent.com/u/66867161" width="100px;" alt="Foto do afaferz Ito no GitHub"/><br>
-        <sub>
-          <b>Afaferz</b>
-        </sub>
-      </a><br>
+      </a>
     </td>
   </tr>
 </table>
