@@ -320,7 +320,7 @@ main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoTexto a:hover {
 
 main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoFoto {
   width: 40%;
-  height: 100vh;
+  height:100vh;
 }
 
 @media screen and (max-width: 1024px) {
