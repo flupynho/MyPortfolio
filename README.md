@@ -49,7 +49,7 @@ O site ainda está em desenvolvimento e as próximas atualizações serão volta
   </tr>
 </table>
 
-## 🌈 Contribuidores<br>
+## 🌈 Inspiração<br>
 <table>
   <tr>
     <td align="center">
