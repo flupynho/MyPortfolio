@@ -315,7 +315,7 @@ main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoTexto a {
 
 main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoTexto a:hover {
   cursor: pointer;
-  background-color: #ea0364;
+  background-color: #4dff7a;
 }
 
 main #apresentacaoPortfolio .larguraMaxContainer #apresentacaoFoto {
@@ -810,133 +810,126 @@ main #conhecimentos .larguraMaxContainer div article p {
   font-size: 1.1rem;
 }
 
-/*
+/*formulariocontato*/
+
 #contato {
-  background-color: $corBrancaDark;
+  background-color: #633ad8;
   padding: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  fieldset{
-    border: none;
-  }
-  #agradecimento{
-    width: 30%;
+}
+#agradecimento{
     height: 300px;
-    background-color: $corPrincipal;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    text-align: center;
-    position: relative;
-    div{
-      width: 80%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    h2{
-      color: $corBranca;
-    }
-    h4{
-      color: $corBranca;
-    }
-  }
+}
+
+
+
+
   #camposContato{
     background-color: $corBranca;
-    width: 60%;
+    width: 50%;
     height: auto;
     border-radius: 10px;
     padding: 30px;
+  }
     #campoFlex{
-      display: flex;
       justify-content: space-between;
     }
     .campoPadrao{
-      width: 47%;
+      width: 50%;
     }
     input{
-      border: none;
-      padding-left: 15px;
-      margin-top: 10px;
-      font-size: 14px;
+      border-radius: 5px;
+    	display: block;
+    	margin: 0em;
+        color: #09b1ff;
+        width: 300px;
+        margin: 20px auto;
+        margin-bottom: -10px;
+        height: 40px;
+
     }
     textarea{
-      border: none;
-      background-color: #f0f0f0;
-      padding: 10px 15px;
-      margin-top: 10px;
-      font-size: 14px;
+      border-radius: 5px;
+    	margin: 0em;
+        color: #09b1ff;
+        width: 90px;
+        margin-bottom: 5px;
+        height: 50px;
+        outline: none;
     }
     .campos{
       width: 100%;
-      height: 40px;
+      height: 500px;
       border-radius: 5px;
-       background-color: #f0f0f0;
     }
-    #captcha{
-      font-size: 20px;
-      float: right;
+
       #campo {
-        width: 40px;
+        width: 100px;
         height: 30px;
-        background-color:#ddd;
         padding-left: 15px;
         border-radius: 5px;
       }
-    }
   }
   #campoDois{
-    margin-top: 20px;
+    display: block;
+
+  }
+
     #campoMensagem{
+      margin-top: 20px;
       width: 100%;
       height: 150px;
       border-radius: 5px;
     }
-  }
+
   #botao{
-    margin-top: 20px;
-    background-color: $corPrincipal;
-    color: $corBranca;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font: {
-      size:18px;
-      weight: 700;
+    border-radius: 30px;
+  	display: block;
+      color: #09b1ff;
+      border: 1px solid #09b1ff;
+      width: 50px;
+      margin: 0 auto;
+      background-color: #09b1ff;
+      color: #FFFFFF;
+      height: 45px;
+      width: 103px;
+      border: 0;
+      max-width: 100px;
+      outline: none;
     }
-    &:hover{
-      background-color: $hoverPrincipal;
+    botao:hover{
+      background-color: #4b25ba;
     }
-  }
-}
+
 @media screen and (max-width:1100px){
   #contato{
     padding: 70px 20px;
+  }
     #agradecimento{
       display: none;
     }
     #camposContato{
       width: 100%;
     }
-  }
-}
+
 @media screen and (max-width:650px){
-  #contato{
-    #camposContato{
-       #campoFlex{
-        flex-wrap: wrap;
-        #espacoResponsivo{
-          margin-top: 20px;
-        }
-      }
-      .campoPadrao{
-        width: 100%;
-      }
+
+#contato{}
+#camposContato{
+#campoFlex{
+    flex-wrap: wrap
+}
+#espacoResponsivo{
+    margin-top: 20px;
+}
+.campoPadrao{
+    width: 100%;
+}
     }
   }
-}*/
+}
 .scrollTop {
   position: fixed;
   right: 20px;
@@ -969,10 +962,11 @@ footer p {
 }
 
 @media screen and (max-width: 1024px) {
+}
   footer p {
     font-size: 1rem;
   }
-}
+
 
 footer #redesSociais .iconify {
   margin: 0px 20px;

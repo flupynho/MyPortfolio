@@ -162,7 +162,7 @@ main {
       }
     }
   }
-  
+
   //Projetos
   #projetos {
     padding: 100px 50px;
@@ -346,7 +346,7 @@ main {
             display: flex;
             align-items: center;
             justify-content: center;
-           
+
             .iconify{
               margin: 0px 10px 10px 10px;
             }
@@ -372,38 +372,17 @@ main {
   }
 }
 
-/*
+/*COntato*/
 #contato {
-  background-color: $corBrancaDark;
+  background-color: #5429CF;
   padding: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  fieldset{
+  section{
     border: none;
   }
-  #agradecimento{
-    width: 30%;
-    height: 300px;
-    background-color: $corPrincipal;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    text-align: center;
-    position: relative;
-    div{
-      width: 80%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    h2{
-      color: $corBranca;
-    }
-    h4{
-      color: $corBranca;
-    }
-  }
+
   #camposContato{
     background-color: $corBranca;
     width: 60%;
@@ -436,9 +415,10 @@ main {
       border-radius: 5px;
        background-color: #f0f0f0;
     }
-    #captcha{
-      font-size: 20px;
-      float: right;
+
+
+
+/*rodapé*/
       #campo {
         width: 40px;
         height: 30px;
@@ -525,27 +505,19 @@ footer {
   p {
     color: $corBranca;
     padding: 25px;
-    font: {
-      size: 1.1rem;
+    font-size: 1.1rem;
       weight: 500;
     }
     @media screen and (max-width: 1024px){
-      font: {
-        size: 1rem;
+      font-size: 1rem;
       }
-    }
-  }
-  #redesSociais {
-    .iconify {
+
+  #redesSociais .iconify {
       margin: 0px 20px;
       color: $corBranca;
       cursor: pointer;
-      font: {
-        size: 1.3rem;
+      font-size: 1.3rem;
       }
       &:hover{
         opacity: 0.7;
       }
-    }
-  }
-}
