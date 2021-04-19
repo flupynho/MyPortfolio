@@ -3,14 +3,14 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="author" content="Felippe Santos" />
-  <meta name="description" content="Desenvolvedor Front-End." />
-  <meta name="keywords" content="sites, web, desenvolvimento, programador, flupynho, front-end." />
+  <meta name="author" content="Iuri Silva" />
+  <meta name="description" content="Desenvolvedor Front-End e UX Designer com 6 meses atuando como Freelancer." />
+  <meta name="keywords" content="sites, web, desenvolvimento, programador, iuricode, front-end, designer, ux, iuri, freelancer, freela, website" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="content-language" content="pt-br" />
-  <meta name="copyright" content="flupynho 2021" />
-  <meta property="og:title" content="Portfólio | Flupynho - Desenvolvedor Front-End" />
-  <meta property="og:description" content="Desenvolvedor Front-End." />
+  <meta name="copyright" content="iuricode 2021" />
+  <meta property="og:title" content="Portfólio | Iuri Silva - Desenvolvedor Front-End e UX Designer" />
+  <meta property="og:description" content="Desenvolvedor Front-End e UX Designer. 6 meses atuando como Freelancer." />
   <title>Portfólio | Felippe Santos - Desenvolvedor Front-End</title>
   <!--Fonte-->
   <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -25,7 +25,9 @@
   <header>
     <div class="larguraMaxContainer">
       <nav>
-          <h1 class="logo">Portfólio</h1>
+          <h1 class="logo">
+            <img src="assets/image/flupynho.png" width="120px"alt="">
+          </h1>
           <div class="mobile-menu">
               <div class="line1"></div>
               <div class="line2"></div>
@@ -36,6 +38,7 @@
               <li><a href="#projetos">Projetos</a></li>
               <li><a href="#servicos">Serviços</a></li>
               <li><a href="#conhecimentos">Conhecimentos</a></li>
+              <li><a href="#contato">Contato</a></li>
           </ul>
       </nav>
     </div>
@@ -56,7 +59,7 @@
           </a>
         </article>
         <article id="apresentacaoFoto">
-          <img src="assets/image/andando.gif" class="object imagem-iuri-delay">
+          <img src="assets/image/andando.png" class="object imagem-iuri-delay">
 
         </article>
       </div>
@@ -77,7 +80,7 @@
               novas tecnologias.
             </p>
             <p class="descricao-delay">
-              Comecei como Desenvolvedor Front End em 2020. Desde então tenho praticado. Vejo que estou no caminho certo pois, tenho conhecido novas linguagens.
+              Comecei como Desenvolvedor Front End em 2020. Desde então tenho praticado. Vejo que estou no caminho certo pois, tenho conhcido novas linguagens.
             </p>
             <div>
               <a href="https://www.linkedin.com/in/flupynho" target="_blank" class="button">
@@ -97,7 +100,7 @@
             <h3>Plataforma Chegow</h3>
             <p>🛒 Site (não responsivo) desenvolvido para Chegow. Serviço prestado como freelancer.</p>
             <span>
-              <a href="https://sollobr-rfk4ezj78-flupynho.vercel.app/" target="_blank" class="button">
+              <a href="https://sollo-brasil.vercel.app/" target="_blank" class="button">
                 <button><span class="iconify" data-inline="false" data-icon="bx:bx-link"></span></i>&nbsp;Website</button>
               </a>
             </span>
@@ -110,7 +113,7 @@
           </div>
           <div class="cards-interval">
             <h3>Projeto Unes</h3>
-            <p>🏬 Esse é um projeto que fiz na Udemy.</p>
+            <p>🏬 Esse é um projeto que fiz na Udemy, com intuido de aprendizegem, interface da Unes.</p>
             <span>
               <a href="https://un-nes-mzwwgigsc-flupynho.vercel.app/" target="_blank" class="button">
                 <button><span class="iconify" data-inline="false" data-icon="bx:bx-link"></span>&nbsp;Website</button>
@@ -130,9 +133,12 @@
               <a href="https://sollobr-rfk4ezj78-flupynho.vercel.app/" target="_blank" class="button">
                 <button><span class="iconify" data-inline="false" data-icon="bx:bx-link"></span>&nbsp;Website</button>
               </a>
-              <!--<a href="https://eteccafelandia.vercel.app" target="_blank">
-                <button><span class="iconify" data-inline="false" data-icon="entypo-social:behance"></span>&nbsp;Design</button>
-              </a>-->
+              <a href="https://github.com/flupynho/Sollobr" target="_blank" class="button">
+                <button><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>&nbsp;GitHub</button>
+              </a>
+
+
+
             </span>
             <div class="linguagensProjeto">
               <span>HTML</span>
@@ -212,52 +218,49 @@
       </div>
     </section>
 
-    <!---
+<!--Contato-->
+
     <form id="contato" method="post" enctype="text/plain">
-      <article id="agradecimento">
-        <div>
-          <h2>Obrigado pela visita!</h2>
-          <h4>Não hesite em mandar-me uma mensagem.</h4>
+
+        <div id="agradecimento">
+          <h3>Não hesite em mandar-me uma mensagem.😍</h3>
+          <img src="assets/image/segu.png" width="500" alt="">
         </div>
-      </article>
-      <fieldset id="camposContato">
+
+      <section id="camposContato">
+        <div class="campoPadrao" id="espacoResponsivo">
+          <input type="text" name="nome" placeholder="Nome" required>
+        </div>
+      </div>
+
         <div id="campoFlex">
           <div class="campoPadrao">
-            <label>E-mail</label>
-            <input name="email" type="email" class="campos" placeholder="Digite e-mail aqui..." required>
+            <input type="text"  name="email" placeholder="E-mail" required>
           </div>
-
-          <div class="campoPadrao" id="espacoResponsivo">
-            <label>Nome</label>
-            <input name="nome" type="text" class="campos" placeholder="Digite seu nome aqui..." required>
-          </div>
-        </div>
 
         <div id="campoDois">
-          <label>Mensagem</label>
-          <textarea name="mensagem" id="campoMensagem" cols="30" rows="10"
+          <textarea name="mensagem" id="campoMensagem"
             placeholder="Digite o motivo do contato aqui..." required></textarea>
         </div>
 
-        <input type="submit" value="Enviar" id="botao">
+        <button id="botao" type="submit" value="Enviar">Enviar</button>
 
-        <div id="captcha">
-          Goo<input type="text" id="campo" maxlength="1" required>le
-        </div>
-      </fieldset>
-    </form>-->
+      </section>
+      <!--Scroll top-->
 
-    <!--Scroll top-->
-    <div id="stop" class="scrollTop">
-      <span>
-        <a href=""><span class="iconify" data-inline="false" data-icon="dashicons:arrow-up-alt2"></span></a>
-      </span>
-    </div>
-  </main>
+      <div id="stop" class="scrollTop">
+        <span>
+          <a href=""><span class="iconify" data-inline="false" data-icon="dashicons:arrow-up-alt2"></span></a>
+        </span>
+      </div>
+      </main>
+    </form>
+
+
 
   <!--Footer-->
   <footer class="footer">
-    <p class="titulo-delay">© 2021 . built with care ♥ by Felippe Santos</p>
+    <p class="titulo-delay">© 2021 . built with care ♥ by Flupynho</p>
     <article id="redesSociais" class="descricao-delay">
       <a href="https://www.linkedin.com/in/flupynho" target="_blank">
         <span class="iconify" data-inline="false" data-icon="brandico:linkedin"></span>
@@ -270,6 +273,7 @@
       </a>
     </article>
   </footer>
+
 
   <script src="https://unpkg.com/scrollreveal"></script>
   <!--Script dos ícones-->
