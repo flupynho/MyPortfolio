@@ -41,7 +41,7 @@ O site ainda está em desenvolvimento e as próximas atualizações serão volta
   <tr>
     <td align="center">
       <a href="https://github.com/flupynho">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/73322544?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
           <b>flupynho</b>
         </sub>
@@ -55,9 +55,9 @@ O site ainda está em desenvolvimento e as próximas atualizações serão volta
   <tr>
     <td align="center">
       <a href="https://github.com/iurecode">
-        <img src="https://avatars3.githubusercontent.com/u/6891093" width="100px;" alt="Foto do Brian Ito no GitHub"/><br>
+        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Brian Ito no GitHub"/><br>
         <sub>
-          <b>Brian Ito</b>
+          <b>Iure Code</b>
         </sub>
       </a><br>
     </td>
